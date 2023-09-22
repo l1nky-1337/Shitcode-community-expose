@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{ba1f40e8-0c8f-41af-8b5b-58f902c849f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Render">
+      <UniqueIdentifier>{628477ef-79e3-45a7-83d3-7170ab0f68b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Render\Color Exploit">
+      <UniqueIdentifier>{1b7e8e12-1f84-444b-a3ba-e2216be90011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{26f65d66-df29-43ae-bf85-56ea9b80a8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\imgui">
+      <UniqueIdentifier>{2e5389dc-fa52-45e7-9c2a-c78a7ba7636b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\GUI">
+      <UniqueIdentifier>{7d1ff500-3be7-4412-8b8e-547b8eb0182c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variable">
+      <UniqueIdentifier>{888ce3ca-9c8a-45f6-901d-9c62b9c72078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\blur">
+      <UniqueIdentifier>{7cc38e61-924f-4f57-a80b-f1473764a338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit">
+      <UniqueIdentifier>{b7562ea8-7dc0-4dae-9432-5625c69b5917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Server">
+      <UniqueIdentifier>{35158b1f-7708-4633-b280-406bd6b82506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Client">
+      <UniqueIdentifier>{a4ca2fa3-3f8e-4ed8-81c8-170d8c75743b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Server\VEHICLE">
+      <UniqueIdentifier>{fb56f5da-60a3-440e-84cf-c526a842d627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Server\VEHICLE\TP">
+      <UniqueIdentifier>{b10ab4c9-3a9d-4b28-800f-00b02c615961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Server\CLASSIC TP">
+      <UniqueIdentifier>{168f4639-8b8e-41ca-a040-53741ee09d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Server\VEHICLE\SIMPLE">
+      <UniqueIdentifier>{873fc8f0-8131-41d9-918e-2ea9816f1aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Server\GUN">
+      <UniqueIdentifier>{ad7898e3-1bf6-4aa2-9f8f-f41b1166a178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Client\PAWN">
+      <UniqueIdentifier>{9696f21a-8b80-4aaa-9093-267959081d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\Server\CAR FLY">
+      <UniqueIdentifier>{0fb0002b-0214-4a0a-89a5-05ae537b7701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hijack">
+      <UniqueIdentifier>{d0a2e7c6-2cbd-4fec-940c-b63e94dd8813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Notify Information">
+      <UniqueIdentifier>{432a37b2-e5c5-432e-9bdf-6029ed76dbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIsual">
+      <UniqueIdentifier>{6dc3ac1d-995b-43e3-8073-f33ca444246a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIsual\World">
+      <UniqueIdentifier>{12a6685a-9b7d-4435-882a-f7c958a8ad17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIsual\Globals">
+      <UniqueIdentifier>{ddb7d72d-0a97-4e29-8a9e-1d910d26f6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIsual\Entity">
+      <UniqueIdentifier>{3eada2f4-5b26-4429-8c18-6b42a9f16a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIsual\Draw">
+      <UniqueIdentifier>{4b22059d-6d30-475e-b857-f29dec25943e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIsual\Camera++">
+      <UniqueIdentifier>{23938f67-f7d3-4e1e-95ce-ef7c6e6b0775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIsual\Camera++\Mouse Controller">
+      <UniqueIdentifier>{47b18ca8-c853-4165-a212-564660a94e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decrypt ASM">
+      <UniqueIdentifier>{7ad6a245-0be4-4bd7-bd2d-1c2840390460}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_animated.cpp">
+      <Filter>Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="blur.cpp">
+      <Filter>Render\blur</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_animated.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ASM.h">
+      <Filter>Decrypt ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="signature.h">
+      <Filter>Decrypt ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="DecryptAnsi.h">
+      <Filter>Decrypt ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>Decrypt ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>Decrypt ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCol.hpp">
+      <Filter>Game Render\Color Exploit</Filter>
+    </ClInclude>
+    <ClInclude Include="BOX.hpp">
+      <Filter>VIsual\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.hpp">
+      <Filter>VIsual\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Color_draw.hpp">
+      <Filter>VIsual\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>VIsual\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="fa_solid_900.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="font_awesome_5.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_notify.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hijack.h">
+      <Filter>Hijack</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.hpp">
+      <Filter>Render\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FN-font.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="init.hpp">
+      <Filter>Render\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="other.hpp">
+      <Filter>Render\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.hpp">
+      <Filter>Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="pushfont.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.hpp">
+      <Filter>VIsual\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.hpp">
+      <Filter>VIsual\Camera++\Mouse Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="just key.hpp">
+      <Filter>VIsual\Camera++\Mouse Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Manette.hpp">
+      <Filter>VIsual\Camera++\Mouse Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.hpp">
+      <Filter>VIsual\Camera++\Mouse Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="blur.hpp">
+      <Filter>Render\blur</Filter>
+    </ClInclude>
+    <ClInclude Include="blur_x.h">
+      <Filter>Render\blur</Filter>
+    </ClInclude>
+    <ClInclude Include="blur_y.h">
+      <Filter>Render\blur</Filter>
+    </ClInclude>
+    <ClInclude Include="item.hpp">
+      <Filter>VIsual\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Entity.hpp">
+      <Filter>VIsual\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CarTeleport.hpp">
+      <Filter>Exploit\Server\VEHICLE\TP</Filter>
+    </ClInclude>
+    <ClInclude Include="CarToPing.hpp">
+      <Filter>Exploit\Server\VEHICLE\TP</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_tp.hpp">
+      <Filter>Exploit\Server\CLASSIC TP</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuel.hpp">
+      <Filter>Exploit\Server\VEHICLE\SIMPLE</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle_speed.hpp">
+      <Filter>Exploit\Server\VEHICLE\SIMPLE</Filter>
+    </ClInclude>
+    <ClInclude Include="bul_tp.hpp">
+      <Filter>Exploit\Server\GUN</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFly.hpp">
+      <Filter>Exploit\Client\PAWN</Filter>
+    </ClInclude>
+    <ClInclude Include="Spinbot.hpp">
+      <Filter>Exploit\Client\PAWN</Filter>
+    </ClInclude>
+    <ClInclude Include="VanReboot.hpp">
+      <Filter>Exploit\Client\PAWN</Filter>
+    </ClInclude>
+    <ClInclude Include="player_tp_sky.hpp">
+      <Filter>Exploit\Server\CLASSIC TP</Filter>
+    </ClInclude>
+    <ClInclude Include="CARFLY.hpp">
+      <Filter>Exploit\Server\CAR FLY</Filter>
+    </ClInclude>
+    <ClInclude Include="W2S.hpp">
+      <Filter>VIsual\Camera++</Filter>
+    </ClInclude>
+    <ClInclude Include="code_notif_render.hpp">
+      <Filter>Render\Notify Information</Filter>
+    </ClInclude>
+    <ClInclude Include="LooRender.hpp">
+      <Filter>VIsual\World</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaEngine.hpp">
+      <Filter>Game Render\Color Exploit</Filter>
+    </ClInclude>
+    <ClInclude Include="zenith_ctx.hpp">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Wireframe.hpp">
+      <Filter>Exploit\Client\PAWN</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelBuffer.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexBuffer.h">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Tahoma.hpp">
+      <Filter>Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="protection.h">
+      <Filter>Decrypt ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="driverdefs.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="direct.asm">
+      <Filter>Kernel</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
