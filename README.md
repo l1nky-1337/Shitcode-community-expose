@@ -16,3 +16,5 @@ here's the proof zartix ratting
 - https://media.discordapp.net/attachments/1144560152679301214/1154752085108215929/image.png
 - https://cdn.discordapp.com/attachments/1144560152679301214/1154752247599738951/image.png
 - https://cdn.discordapp.com/attachments/1144560152679301214/1154752350309855322/image.png
+
+zartix old info - https://cdn.discordapp.com/attachments/1144560152679301214/1154753850511732806/image.png
