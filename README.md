@@ -25,4 +25,5 @@ here's the proof zartix ratting
 zartix old info - https://cdn.discordapp.com/attachments/1144560152679301214/1154753850511732806/image.png
 
 # discord
+
 my discord server - https://discord.gg/9UpmWQnbAh
