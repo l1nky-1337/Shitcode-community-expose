@@ -26,4 +26,4 @@ zartix old info - https://cdn.discordapp.com/attachments/1144560152679301214/115
 
 # discord
 
-my discord server - https://discord.gg/9UpmWQnbAh
+my discord server - https://discord.gg/ZENeXwMBHE
